@@ -1,0 +1,43 @@
+h1 {
+  color: #0073e6;/*change the text color*/
+  font-family: 'Roboto',sans-serif;/*change the font*/
+  font size: 2.5rem;/*increase the size*/
+  text-align: centre;/*centre the text*/
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  gap;20px;
+}
+.section{
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: radius 8px;
+}
+
+input[type="text"], input[type="email"], textarea {width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:5px;
+border:1px solid #ddd;
+}
+button{
+  background-color: #0073e6;
+  color:white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #005bb5;
+}
+
+@media(max-width:768px){
+  .container}{
+    flex-direction: column;
+  }
+h1{
+  font-family: 1.5rem;
+}
